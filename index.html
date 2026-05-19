@@ -2,81 +2,347 @@
 <html lang="en">
 
 <head>
+
+    <!-- Meta Information -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Title</title>
+
+    <title>Semantic HTML Practice</title>
+
 </head>
 
 <body>
-    <!-- HEADINGS -->
-    <h1>Zulfiqar Ali</h1>
-    <h2>Tajamal Abbas</h2>
-    <h3>Muzamil Abbas</h3>
-    <h4>Ajmal Abbas</h4>
-    <h5>Waseem Abbas</h5>
-    <h6>Nadeem Abbas</h6>
 
-    <!-- Paragraph Tag -->
-    <p>This is paragraph</p>
+    <!-- HEADER -->
+    <header>
 
-    <!-- bold tag -->
-    <strong>bold text</strong>
-    <br>
-    <!-- italic tag -->
-    <em>Italic text</em>
-    <br>
-    <!-- small tag -->
-    <small>Small text</small>
-    <br>
-    <!-- mark tag -->
-    <mark>Highlighted text</mark>
-    <br>
-    <!-- delete tag -->
-    <del>Deleted text</del>
-    <br>
-    <!-- insert tag -->
-    <ins>Inserted text</ins>
-    <br>
-    <!-- subscript tag -->
-    H<sub>2</sub>O
-    <br>
-    <!-- superscript tag -->
-    mc<sup>2</sup>
-    <br>
+        <h1>Semantic HTML Practice Page</h1>
 
-    <!-- unorder list -->
-    <ul style="list-style-type:circle">
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3</li>
+        <p>
+            This page contains semantic elements,
+            block elements, inline elements,
+            lists, links, images, and forms.
+        </p>
 
-    </ul>
-    <br>
-    <!-- order list -->
-    <ol type="a">
-        <li>first item</li>
-        <li>second item</li>
-        <li>third item</li>
-    </ol>
-    <!-- Description list -->
-    <dl>
-        <dt>HTML</dt>
-        <dd>HyperText Markup Language: The standard for web pages.</dd>
-        <dt>CSS</dt>
-        <dd>Cascading Style Sheets: Used for styling web content.</dd>
-    </dl>
-    <!-- HTML Links -->
-    <a href="https://www.google.com/">Google</a>
-    <br>
-    <a href="https://www.linkedin.com/">LinkedIn</a>
-    <br>
-    <a href="https://mail.google.com/mail/u/0/">Gmail</a>
-    <br>
-    <a href="https://www.facebook.com " target="_blank">FaceBook</a>
-    <!-- Images-->
-    <br>
+        <hr>
 
-    <img src="html.jpg" alt="Description" width="300" height="200">
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+
+        <a href="https://www.google.com" target="_blank">
+            Google
+        </a>
+
+        |
+
+        <a href="https://www.linkedin.com" target="_blank">
+            LinkedIn
+        </a>
+
+        |
+
+        <a href="https://www.facebook.com" target="_blank">
+            Facebook
+        </a>
+
+    </nav>
+
+    <hr>
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- SECTION -->
+        <section>
+
+            <h2>Headings</h2>
+
+            <h1>Zulfiqar Ali</h1>
+            <h2>Tajamal Abbas</h2>
+            <h3>Muzamil Abbas</h3>
+            <h4>Ajmal Abbas</h4>
+            <h5>Waseem Abbas</h5>
+            <h6>Nadeem Abbas</h6>
+
+        </section>
+
+        <hr>
+
+        <!-- ARTICLE -->
+        <article>
+
+            <h2>Paragraph and Formatting</h2>
+
+            <p>
+                HTML is used to create the structure
+                of web pages.
+            </p>
+
+            <strong>Bold Text</strong>
+            <br><br>
+
+            <em>Italic Text</em>
+            <br><br>
+
+            <small>Small Text</small>
+            <br><br>
+
+            <mark>Highlighted Text</mark>
+            <br><br>
+
+            <del>Deleted Text</del>
+            <br><br>
+
+            <ins>Inserted Text</ins>
+            <br><br>
+
+            H<sub>2</sub>O
+            <br><br>
+
+            E = mc<sup>2</sup>
+
+        </article>
+
+        <hr>
+
+        <!-- ASIDE -->
+        <aside>
+
+            <h2>Aside Section</h2>
+
+            <p>
+                Aside tag is used for side content
+                like tips, ads, or extra information.
+            </p>
+
+        </aside>
+
+        <hr>
+
+        <!-- LISTS -->
+        <section>
+
+            <h2>Lists</h2>
+
+            <!-- Unordered List -->
+            <h3>Unordered List</h3>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+
+            <!-- Ordered List -->
+            <h3>Ordered List</h3>
+
+            <ol type="A">
+                <li>Frontend</li>
+                <li>Backend</li>
+                <li>Database</li>
+            </ol>
+
+            <!-- Description List -->
+            <h3>Description List</h3>
+
+            <dl>
+
+                <dt>HTML</dt>
+
+                <dd>
+                    HyperText Markup Language
+                </dd>
+
+                <dt>CSS</dt>
+
+                <dd>
+                    Cascading Style Sheets
+                </dd>
+
+            </dl>
+
+        </section>
+
+        <hr>
+
+        <!-- IMAGE -->
+        <section>
+
+            <h2>Image</h2>
+
+            <figure>
+
+                <img src="html.jpg" Sample Image" width="300" height="200">
+
+                <figcaption>
+                    Sample Placeholder Image
+                </figcaption>
+
+            </figure>
+
+        </section>
+
+        <hr>
+
+        <!-- FORM -->
+        <section>
+
+            <h2>Form Elements</h2>
+
+            <form>
+
+                <!-- Text -->
+                <label for="name">
+                    Full Name:
+                </label>
+
+                <br>
+
+                <input type="text" id="name" placeholder="Enter your name">
+
+                <br><br>
+
+                <!-- Email -->
+                <label for="email">
+                    Email:
+                </label>
+
+                <br>
+
+                <input type="email" id="email" placeholder="Enter your email">
+
+                <br><br>
+
+                <!-- Password -->
+                <label for="password">
+                    Password:
+                </label>
+
+                <br>
+
+                <input type="password" id="password" placeholder="Enter password">
+
+                <br><br>
+
+                <!-- Number -->
+                <label for="number">
+                    Phone Number:
+                </label>
+
+                <br>
+
+                <input type="number" id="number" placeholder="Enter number">
+
+                <br><br>
+
+                <!-- Date -->
+                <label for="date">
+                    Date of Birth:
+                </label>
+
+                <br>
+
+                <input type="date" id="date">
+
+                <br><br>
+
+                <!-- Checkbox -->
+                <input type="checkbox" id="terms">
+
+                <label for="terms">
+                    I agree to terms and conditions
+                </label>
+
+                <br><br>
+
+                <!-- Radio Buttons -->
+                <p>Select Gender:</p>
+
+                <input type="radio" id="male" name="gender">
+
+                <label for="male">
+                    Male
+                </label>
+
+                <br>
+
+                <input type="radio" id="female" name="gender">
+
+                <label for="female">
+                    Female
+                </label>
+
+                <br><br>
+
+                <!-- Submit -->
+                <button type="submit">
+                    Submit
+                </button>
+
+            </form>
+
+        </section>
+
+        <hr>
+
+        <!-- BLOCK ELEMENTS -->
+        <section>
+
+            <h2>Block Elements</h2>
+
+            <div>
+                This is a DIV element.
+            </div>
+
+            <p>
+                This is a paragraph element.
+            </p>
+
+            <article>
+                This is an article element.
+            </article>
+
+        </section>
+
+        <hr>
+
+        <!-- INLINE ELEMENTS -->
+        <section>
+
+            <h2>Inline Elements</h2>
+
+            <span>This is a SPAN element.</span>
+
+            <br><br>
+
+            <a href="#">
+                This is an anchor tag.
+            </a>
+
+            <br><br>
+
+            <strong>Bold Text</strong>
+
+            <br><br>
+
+            <em>Italic Text</em>
+
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            © 2026 Semantic HTML Practice Page
+        </p>
+
+    </footer>
 
 </body>
 
